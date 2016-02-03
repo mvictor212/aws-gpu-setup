@@ -11,6 +11,6 @@ sudo apt-get update
 
 sudo apt-get install -y cuda
 
-echo -e "\nexport PATH=/usr/local/cuda/bin:$PATH\n\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64" >> .bashrc
+echo -e "\nexport PATH=/usr/local/cuda/bin:$PATH\n\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64" >> .bash_profile
 
 sudo reboot
