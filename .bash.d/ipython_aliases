@@ -1,0 +1,4 @@
+#!/bin/bash
+
+alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
+alias ipn="ipython notebook"
