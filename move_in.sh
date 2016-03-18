@@ -15,5 +15,6 @@ then
   mv ~/.bash.d ~/.bash.d.bak
 fi
 cp -r .bash.d ~/.bash.d
+cp .screenrc ~/
 
 source ~/.bashrc
